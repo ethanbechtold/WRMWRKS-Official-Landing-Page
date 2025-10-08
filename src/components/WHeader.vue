@@ -21,7 +21,7 @@
         <div class="container pt-10 pb-5 pl-5 pr-5 fit-content md:pt-15 md:mr-10 md:ml-19 lg:ml:100">
             <RouterLink to="/">
                 <div class="flex justify-baseline">
-                    <img class=" w-48 pb-5 h-auto md:w-64 lg:w-100" src="/public/wrmwrks business card.svg"></img>
+                    <img class=" w-48 pb-5 h-auto md:w-64 lg:w-100" src="/public/wrm_logo.svg"></img>
                 </div>
             </RouterLink>
             <div v-if="w.width > 800" class="lg:text-2xl lg:text-xl md:text-lg absolute lg:right-40 md:right-15 xs:right-10 top-30">
