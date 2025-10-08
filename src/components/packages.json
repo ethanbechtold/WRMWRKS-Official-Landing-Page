@@ -1,0 +1,13 @@
+[{
+    "tier": 0,
+    "name": "Standard Package",
+    "price": "$2,500",
+    "length": 5
+},
+{
+    "tier": 1,
+    "name": "Deluxe Package",
+    "price": "$3,500",
+    "length": 7
+}
+]

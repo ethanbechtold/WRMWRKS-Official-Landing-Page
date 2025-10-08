@@ -1,0 +1,26 @@
+[{
+    "id": 0,
+    "name": "Adobe Creative Cloud / Resolve Studio",
+    "description": "Whether it be a quick 'reel', or something with a little more style."
+},
+{
+    "id": 1,
+    "name": "Camera Operation",
+    "description": "Over a decade of experience working with camera systems from leading imaging brands such as Canon and RED."
+},
+{
+    "id": 2,
+    "name": "Lighting and Rigging",
+    "description": "Trained and executed with experienced Hollywood Professionals"
+
+},
+{
+    "id": 3,
+    "name": "Even More",
+    "description": "Audio production, graphic design, moderately skilled programmer. I pride myself on outsourcing as little as possible. Even this site was built from the soil by me using Vue.js."
+},
+{
+    "id":4,
+    "name":"Fifth Column",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula vitae diam a pulvinar. Donec aliquam lobortis metus, scelerisque finibus dolor hendrerit nec. Aenean sit amet condimentum risus. Mauris vel elementum tortor. Aliquam augue mi, egestas eget commodo quis, vehicula vitae est. Duis blandit ex non ultricies facilisis. Donec non ultrices ante, ut ornare augue. Etiam congue diam nec libero rhoncus laoreet. Quisque pulvinar leo a ex finibus, posuere suscipit turpis posuere. Curabitur ultrices vestibulum augue, ac viverra purus feugiat ac. Maecenas nec tortor quis nisl ultrices condimentum et sollicitudin lectus. "
+}]

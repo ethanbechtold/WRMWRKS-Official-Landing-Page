@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Rainstorm;
+    src: url('/src/assets/fonts/SpringRainstorm.ttf');
+  }
+
+@font-face {
+  font-family: Tamuragaki;
+  src: url('/src/assets/fonts/Tamuragaki.ttf');
+}
+  
+@font-face{
+  font-family: Glametrix;
+  src: url('/src/assets/fonts/Glametrix.otf')
+}
+
+@font-face{
+  font-family: WormHole;
+  src: url('/src/assets/fonts/NaturalLog.ttf')
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  }
+
+/*  */
+
+.mobileColumn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-start: auto;
+  grid-column-start: auto;
+  gap: 20px
+  
+}
+
+.doubleGold {
+  border: 15px double #b9a976c9;
+  border-radius:  2% / 5% ;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: WormHole;
+  text-decoration-line: underline;
+  color:#0c0e0a;
+}
+
+h2 {
+  font-family: WormHole;
+  font-size: 32px;
+  color: #0c0e0a;
+}
+
+h3 {
+  font-family: WormHole;
+  font-size: 32px;
+  color: #DAD3BE;
+}
+
+p {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+  font-size: 20px;
+
+}
+
+.mainReelVid {
+  width: 50%;
+  max-height: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .doubleGold {
+    border-radius: .75rem
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .mainReelVid {
+    width: 90%;
+  }
+  .mobileColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mobileColumn > p {
+    font-weight: bold;
+  }
+
+
+}
+
+.bg-antique {
+  background-color: rgba(255, 226, 193, 0.767);
+}
+
+/* video player */
+

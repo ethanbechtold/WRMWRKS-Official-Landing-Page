@@ -1,0 +1,19 @@
+[{
+	"id": 0,
+	"name": "Short Form Content / 'Reel'",
+	"starting-price": {"one":250,
+			"two": 450,
+			"five": 1000},
+	"bulk": true
+},
+{
+	"id": 1,
+	"name": "90 Second Commercial",
+	"starting-price": 800,
+	"hourly": 31.20,
+	"set-days": 2,
+	"extra-days": 250,
+	"revisions": 3,
+	"color-pro": 300,
+	"color-revisions": 2
+}]
