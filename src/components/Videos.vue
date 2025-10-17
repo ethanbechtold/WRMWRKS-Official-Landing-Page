@@ -1,14 +1,15 @@
 <script setup>
 import videojs from 'video.js';
 import VideoPlayer from './VideoPlayer.vue';
-import videos from '../vid/videos.json'
+import videos from '../media/videos.json';
 
+
+
+console.log(videos[1])
 </script>
 
 <script>
-
     export default {
-     
         data() { 
             return {
                 components: {
@@ -21,7 +22,8 @@ import videos from '../vid/videos.json'
                     aspectRatio: '16:9',
                     muted: true,
                     loop: true,
-                    sources: [{src: 'https://wrmwrks.net/reel_v2.mp4', type: 'video/mp4'}]
+                    sources: [{src: 'https://media.wrmwrks.net/reel_v2.mp4', type: 'video/mp4'}],
+                    preload: 'auto'
                     
                 },
                 
@@ -31,11 +33,10 @@ import videos from '../vid/videos.json'
         },
         methods: {
             changeCurrentVideo(video) {
-                const player = videojs.getPlayer('player')
                 this.reelOptions.sources = [
                     {
-                      src: video,
-                      type: 'video/mp4',
+                      src: video.src,
+                      type: video.type,
                     },
                 ]
                 console.log(this.reelOptions.sources)
@@ -66,7 +67,9 @@ import videos from '../vid/videos.json'
 
     <!-- Thumbnail links from videos.json -->
     <div class="grid grid-cols-1 gap-5 p-5 lg:grid-cols-4 lg:content-center">
-        <button v-for="clip in videos" @click="changeCurrentVideo(clip.src), scrollTo('mainReelVid')"><img class="thumbnail" v-bind:src=clip.thumbnail></img></button>
+        <button class="ml-3 mr-3 sm:ml-0 sm:mr-0"v-for="clip in videos" @click="changeCurrentVideo(clip), scrollTo('mainReelVid')">
+            <img v-bind:src=clip.thumbnail></img>
+        </button>
     </div>
 </template>
 
@@ -78,8 +81,7 @@ import videos from '../vid/videos.json'
     }
 
     .thumbnail {
-        max-height: fit-content;
-        size:  5cm;
+        width: 1fr;
     }
 
 </style>

@@ -1,7 +1,6 @@
 <script setup>
 import About from '../components/About.vue';
-import Carousel from '../components/Carousel.vue'
-import Skills from '../components/Skills.vue';
+import Carousel from '../components/Carousel.vue';
 
 
 

@@ -1,14 +1,3 @@
-<script>
-    export default {
-        data(){
-            return{
-                on: false
-            }
-        }
-    }
-
-</script>
-
 <template>
     <div class="rounded-t-lg bg-amber-100 pt-4 pb-4">
         <div class="flex flex-col items-center p-2">

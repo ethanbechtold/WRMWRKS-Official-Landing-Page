@@ -55,8 +55,9 @@ h2 {
 }
 
 h3 {
-  font-family: WormHole;
-  font-size: 32px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 1px solid rgba(12, 103, 62, 0.536);
+  font-size: 20px;
   color: #DAD3BE;
 }
 
