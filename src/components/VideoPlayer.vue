@@ -33,6 +33,7 @@
   
     <!-- video js player skin -->
     <div>
-      <video ref="videoPlayer" class="video-js"></video>
+      <video ref="videoPlayer" class="video-js">
+      </video>
     </div>
   </template>

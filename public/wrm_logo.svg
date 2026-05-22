@@ -7,8 +7,11 @@
    viewBox="0 0 87.955666 32.812451"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="wrmwrks business card.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="wrm_logo.svg"
+   inkscape:export-filename="wrm_logo_no_tag.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="4.0088384"
-     inkscape:cx="166.75654"
-     inkscape:cy="57.996851"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="122"
+     inkscape:zoom="1.4648937"
+     inkscape:cx="157.3493"
+     inkscape:cy="156.66665"
+     inkscape:window-width="1920"
+     inkscape:window-height="1172"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g7"
      showgrid="true">
     <inkscape:grid
        id="grid2"
@@ -135,7 +138,7 @@
            id="tspan6">wrmwrks</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:4.27103px;font-family:Momcake;-inkscape-font-specification:'Momcake Thin';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.100891;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:4.27103px;font-family:Momcake;-inkscape-font-specification:'Momcake Thin';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.100891;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
          x="16.234808"
          y="26.37439"
          id="text7"
@@ -143,7 +146,7 @@
          inkscape:label="tagline"><tspan
            sodipodi:role="line"
            id="tspan7"
-           style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:4.27103px;font-family:Momcake;-inkscape-font-specification:'Momcake Thin';fill:#ffffff;fill-opacity:1;stroke-width:0.100891;stroke:#ffffff;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:4.27103px;font-family:Momcake;-inkscape-font-specification:'Momcake Thin';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.100891;stroke-opacity:1"
            x="16.234808"
            y="26.37439">down-to-earth media solutions.</tspan></text>
     </g>

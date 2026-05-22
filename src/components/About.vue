@@ -9,15 +9,21 @@
 </script>
 
 <template>
-    
-<div class="wormBio bg-antique flex flex-col doubleGold m-5 pb-5 xl:flex-row justify-center 2xl:ml-50 2xl:mr-50">
-    <img class=" rounded-lg m-5 w-75 self-center object-scale-down lg:w-150 lg:col-2 lg:row-span-3" src="">
-        <div name="aboutDescription" class="text-lg text-center p-2 md:text-base md:mr-5 flex flex-col justify-center lg:text-lg lg:p-20">
-            <h1 class="relative sm:bottom-2 lg:bottom-10 text-4xl text-center">About Me</h1>
-            <p>My name is Ethan Bechtold, I've been making digital content professionally since the age of 16.
-            I received my BFA in Cinematic Arts Production from APU in 2023, where I acted as Director of Photography and Colorist on my Senior Capstone film.</p>
+
+<div class="wormBio bg-antique flex flex-col doubleGold m-5 pb-5 lg:grid xl:ml-5">
+    <img class="pt-5 w-75 pl-5 pr-5 self-center object-scale-down lg:w-150 lg:col-2 lg:row-span-3" src="https://media.wrmwrks.net/images/thumbs/PFP.PNG">
+        <div name="aboutDescription" class="text-center p-2 md:text-base md:mr-5 md:justify-left flex flex-col justify-center lg:p-20">
+            <h2 class="text-5xl mt-5 mb-5 relative sm:bottom-2 text-center">Ethan</h2>
+            
+            <div class="bioFont lg:text-lg xl:text-2xl"> 
+            <p>I've been making digital 
+            content professionally since the age of 16.
+            I received my BFA in Cinematic Arts Production from APU in 2023</p>
             <p>Upon completing college, I moved to the Santa Cruz area where I worked as a full-service videographer for Mission Springs Conference Center and their Outdoor Education Program.</p>
-        </div>
+            <p>my goal is to provide effective and affordable service to those in my community</p>
+
+            </div>
+                    </div>
 </div>  
 
 
@@ -27,6 +33,7 @@
 </template>
 
 <style>
+
     @media screen and (max-width: 1024px) {
         .valuesContainer {
             grid-template-columns: 1;
@@ -40,6 +47,10 @@
         grid-template-rows: auto;
         grid-auto-flow: column;
         grid-auto-rows: auto;
+    }
+    .bioFont {
+        font-size: medium;
+        padding-top: 5px;
     }
     }
 

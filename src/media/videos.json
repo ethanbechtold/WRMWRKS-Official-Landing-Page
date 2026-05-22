@@ -2,16 +2,19 @@
 		"name": "SIZZLE REEL 2025",
 		"src": "https://media.wrmwrks.net/reel_v2.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_sizzle_thumbnail.png",
-		"type": "video/mp4"	
+		"type": "video/mp4",
+		"desc": "Everything I've shot up to the end of August, 2025"
 	},
 	{
-		"name": "Mission Springs Outdoor Education",
+		"name": "MSOE School Visit Promo",
+		"desc":"my best work",
 		"src": "https://media.wrmwrks.net/OE_Promo_FINAL_v2_YT.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_Slug_OE_Thumbnail.png",
 		"type": "video/mp4"
 	},
 	{ 
-		"name": "Mission Springs Men's Conference 2024",
+		"name": "Men's Conference",
+		"desc":"bunch of old men complaining abt their wives",
 		"src": "https://media.wrmwrks.net/missionSprings_mensConference_03-2025_1080p.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_ms_mens_thumbnail.png",
 		"type": "video/mp4"

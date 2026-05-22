@@ -1,0 +1,76 @@
+[
+    {
+        "client": "Mission Springs Program",
+        "title": "Centennial",
+        "media": [{  "link":"https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/pass/Monkey-Selfie.jpg",
+                    "description": "monkee",
+                    "source": "source"}, {  "link":"https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/pass/Monkey-Selfie.jpg",
+                    "description": "monkee",
+                    "source": "source"}, 
+                    {  "link":"https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg",
+                    "description": "monkee",
+                    "source": "source"}, {  "link":"https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/pass/Monkey-Selfie.jpg",
+                    "description": "monkee",
+                    "source": "source"}, {  "link":"https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/pass/Monkey-Selfie.jpg",
+                    "description": "monkee",
+                    "source": "source"}, 
+                    {  "link":"https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/pass/Monkey-Selfie.jpg",
+                    "description": "monkee",
+                    "source": "source"}],
+        "description": "sorting and tagging footage. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis, veritatis aliquid sit veniam, nisi pariatur magnam facere cum repellendus quisquam quae quas temporibus, tenetur maxime ipsam tempore. Doloribus, saepe.",
+        "date": ["Winter", 2025]
+    },
+    {
+        "client": "Mission Springs Program",
+        "title": "Program Event Shorts",
+        "media": [],
+        "description": "A series of vertical content for Mission Springs' various events and retreats throughout the year. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis, veritatis aliquid sit veniam, nisi pariatur magnam facere cum repellendus quisquam quae quas temporibus, tenetur maxime ipsam tempore. Doloribus, saepe.",
+        "date": []
+
+    },
+
+    {
+        "client": "Mission Springs Outdoor Education",
+        "title": "Naturalist Recruiting Campaign",
+        "media": ["link1", "link2", "link3"],
+        "description":"Updated recuiting ad for online job board postings and social media. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis, veritatis aliquid sit veniam, nisi pariatur magnam facere cum repellendus quisquam quae quas temporibus, tenetur maxime ipsam tempore. Doloribus, saepe.",
+        "date": ["Fall", 2026]
+
+    },
+    {
+        "client":"Mission Springs Outdoor Education",
+        "title": "Program Advertisement Campaign",
+        "media": ["", "to", "photo", "video"],
+        "links": ["https://missionspringsoe.com/media/"],
+        "description": "lorem ipsum advertisement for parents of prospective students for mission springs outdoor education. used in social media postings and as visual aid for school visit presentationslorem ipsum advertisement for parents of prospective students for mission springs outdoor education. used in social media postings and as visual aid for school visit presentationslorem ipsum advertisement for parents of prospective students for mission springs outdoor education. used in social media postings and as visual aid for school visit presentationslorem ipsum advertisement for parents of prospective students for mission springs outdoor education. used in social media postings and as visual aid for school visit presentations",
+        "date": ["Spring", 2025]
+    },
+    {
+        "client": "Mission Springs Program",
+        "title": "Summer camp recap videos",
+        "media": ["best", "three", "and", "bts"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis, veritatis aliquid sit veniam, nisi pariatur magnam facere cum repellendus quisquam quae quas temporibus, tenetur maxime ipsam tempore. Doloribus, saepe.",
+        "date": ["Summer", 2023]
+    },
+    {
+        "client": "APU Cinematic Arts BFA",
+        "title": "Trip",
+        "media": [{
+            "link":"https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg"
+        }],
+        "links": ["https://www.youtube.com/watch?v=S0vzsixH8eM"],
+        "description":"",
+        "date":[]
+
+        
+    },
+    {
+        "client": "APU Cinematic Arts BFA",
+        "title": "Shattered",
+        "media": [{  "link":"https://m.media-amazon.com/images/M/MV5BYTUyMDhkNjUtZTE0My00MGU1LTlhMzQtMTk3YWZiMmY0YmQ4XkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg",
+                    "description": "Poster",
+                    "source": "IMDB"}],
+        "links": [""],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis, veritatis aliquid sit veniam, nisi pariatur magnam facere cum repellendus quisquam quae quas temporibus, tenetur maxime ipsam tempore. Doloribus, saepe.",
+        "date": []
+    }]

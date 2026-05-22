@@ -1,24 +1,6 @@
 @import "tailwindcss";
 
-@font-face {
-    font-family: Rainstorm;
-    src: url('/src/assets/fonts/SpringRainstorm.ttf');
-  }
 
-@font-face {
-  font-family: Tamuragaki;
-  src: url('/src/assets/fonts/Tamuragaki.ttf');
-}
-  
-@font-face{
-  font-family: Glametrix;
-  src: url('/src/assets/fonts/Glametrix.otf')
-}
-
-@font-face{
-  font-family: WormHole;
-  src: url('/src/assets/fonts/NaturalLog.ttf')
-}
 
 img, picture, video, canvas, svg {
   display: block;
@@ -37,41 +19,74 @@ img, picture, video, canvas, svg {
 }
 
 .doubleGold {
-  border: 15px double #b9a976c9;
+  border: 10px double #b9a976c9;
   border-radius:  2% / 5% ;
 }
 
 h1 {
-  font-size: 48px;
-  font-family: WormHole;
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration-line: underline;
   color:#0c0e0a;
 }
 
 h2 {
-  font-family: WormHole;
-  font-size: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #0c0e0a;
 }
 
 h3 {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-bottom: 1px solid rgba(12, 103, 62, 0.536);
   font-size: 20px;
   color: #DAD3BE;
 }
 
-p {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: lighter;
-  font-size: 20px;
 
+p {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .mainReelVid {
   width: 50%;
   max-height: 50%;
 }
+
+
+#wormLanding {
+  transition: 1000ms;
+
+}
+
+.welcomeLogo {
+  justify-content: center;
+}
+
+#goButton {
+  color: white;
+  background-color: rgb(50, 90, 46);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  transition: 300ms;
+}
+
+#goButton > p {
+  font-size: 64px;
+  font-family: WormHole;
+  background-color: inherit;
+  transition: inherit;
+}
+
+
+#goButton:hover{
+  background-color: rgb(11, 58, 6);
+  
+}
+
+
 
 @media only screen and (max-width: 1024px) {
   .doubleGold {

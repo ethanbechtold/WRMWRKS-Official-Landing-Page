@@ -51,6 +51,7 @@ export default {
 
     .v-enter-from, .v-leave-to {
         max-width: 0;
+        opacity: 0%;
         transition: 200ms;
     }
 

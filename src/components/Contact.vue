@@ -1,29 +1,15 @@
-<script>
-export default {
-    data() {
-        return {
-            name: null,
-        }
-    }
-}
-
-
-</script>
-
 <template>
     <div class="flex flex-col text-center">
         <h1>
-            contact me:
+            Contact
         </h1>
         <div>
-            ethan@wrmwrks.net
+            <a href="mailto:ethan@wrmwrks.net">ethan@wrmwrks.net</a>
         </div>
-
-
+        <h1>Office Hours</h1>
+        <div>
+            Monday - Friday: 9:00am - 5:00pm
+        </div>
     </div>
 
 </template>
-
-<style scoped>
-
-</style>
