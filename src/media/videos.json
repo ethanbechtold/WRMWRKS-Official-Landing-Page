@@ -1,5 +1,5 @@
 [{
-		"name": "SIZZLE REEL 2025",
+		"name": "Reel",
 		"src": "https://media.wrmwrks.net/reel_v2.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_sizzle_thumbnail.png",
 		"type": "video/mp4",
@@ -14,7 +14,7 @@
 	},
 	{ 
 		"name": "Men's Conference",
-		"desc":"bunch of old men complaining abt their wives",
+		"desc":"Vertical project advertising Mission Springs' retreat program for men of all ages.",
 		"src": "https://media.wrmwrks.net/missionSprings_mensConference_03-2025_1080p.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_ms_mens_thumbnail.png",
 		"type": "video/mp4"

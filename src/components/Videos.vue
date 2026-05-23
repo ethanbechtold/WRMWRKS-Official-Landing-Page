@@ -65,11 +65,11 @@ console.log(videos[1])
 <link href="https://unpkg.com/video.js@7/dist/video-js.min.css"
         rel="stylesheet"/>
 
-    <div id="mainReelVid" class="flex flex-col items-center pt-10 pb-15 2xl:flex-row 2xl:justify-around md:gap-10">
+    <div id="mainReelVid" class="flex flex-col items-center pt-10 pb-15 2xl:flex-row 2xl:justify-center md:gap-10">
         <VideoPlayer :key="reelOptions.sources" id="player" class="mainReelVid" :options="reelOptions"></VideoPlayer>
-        <div class="flex flex-col pb-5 2xl:relative 2xl:right-60">
+        <div class="flex flex-col pb-5">
             <div class="flex flex-col items-center 2xl:items-start">
-                <h1>{{ videoTitle }}</h1>
+                <h1 class="text-center mt-2">{{ videoTitle }}</h1>
                 <p class="self-center xl:self-baseline">{{ videoDescription }}</p>
             </div>
         </div>

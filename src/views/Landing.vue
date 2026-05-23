@@ -4,7 +4,7 @@
 
 <template>
     <div id='wormLanding' class="flex flex-col items-center lg:pt-40">
-        <img class='welcomeLogo lg:h-75 md:h-50' src="/wrm_logo.svg" alt="WRMWRKS Logo">
+        <img class='welcomeLogo lg:h-75 md:h-50' src="/wrm_logo_no_tag.png" alt="WRMWRKS Logo">
         <RouterLink to="/home">
             <div id="goButton" class="goButton mt-10">
                 <p>GO</p>

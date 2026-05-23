@@ -36,8 +36,8 @@ import image from '../media/img.json'
 
 <template>
     <div class="flex flex-row justify-center">
-        <div class="carouselBox flex flex-row overflow-x-scroll overflow-y-clip mb-10 md:mb-20">
-            <img v-for='img in image' class="carousel frontPic"  :src="img.src">
+        <div class="carouselBox flex flex-row overflow-x-scroll overflow-y-clip">
+            <img v-for='img in image' class="carousel"  :src="img.src">
         </div>
         
     </div>

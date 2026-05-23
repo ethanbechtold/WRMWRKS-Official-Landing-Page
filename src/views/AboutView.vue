@@ -8,7 +8,6 @@ import Contact from '../components/Contact.vue'
 <template>
         
     <main>
-    <div class="text-center text-4xl mt-5 mb-2 underline">About</div>
     <About />           
 
     <Contact />

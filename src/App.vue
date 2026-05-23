@@ -34,9 +34,9 @@ import ProjectPopup from './components/projectPopup.vue';
   <main>
     <NBtn class="sticky" />  
     <WHeader id="#z-axis" class="static w-full"/>
+    
     <RouterView />
-
-
+    
   </main>
   <footer>
     <div class="flex flex-col items-center content-center">

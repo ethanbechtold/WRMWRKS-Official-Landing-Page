@@ -42,10 +42,8 @@ import Contact from "../components/Contact.vue";
 <template>
 <main>
   <Videos></Videos>
-  <h1>Photo</h1>
   <Carousel />
-  <Contact></Contact>
-  <p class="text-center">to save money on unnecessary subscriptions, wrmwrks.net is built and hosted by yours truly. if something is not working, please submit a complaint to bug@wrmwrks.net</p>
+  <Contact class="mt-10 mb-10" />
 </main>
 </template>
 
