@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "MSOE School Visit Promo",
-		"desc":"my best work",
+		"desc":"Advertisement for Mission Springs' Outdoor Education program. Made for the program's website and as the director's presentation aid while visiting schools across California.",
 		"src": "https://media.wrmwrks.net/OE_Promo_FINAL_v2_YT.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_Slug_OE_Thumbnail.png",
 		"type": "video/mp4"
@@ -18,4 +18,35 @@
 		"src": "https://media.wrmwrks.net/missionSprings_mensConference_03-2025_1080p.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_ms_mens_thumbnail.png",
 		"type": "video/mp4"
-	}]
+	},
+	{
+		"name": "Trip",
+		"desc": "2023 Capstone project for Azusa Pacific University's BFA Production Program.",
+		"src": "https://vimeo.com/825636696?fl=pl&fe=cm",
+		"thumbnail": "https://media.wrmwrks.net/images/thumbs/tripThumb.png"
+
+	},
+	{
+		"name": "Ogo",
+		"desc": "VFX focused short film that involved strict lighting plans, 360 cameras, and my genius friend Braden Robins.",
+		"src": "https://www.youtube.com/watch?v=RGO32fo8qws&t=2s",
+		"thumbnail": "https://media.wrmwrks.net/images/thumbs/ogoThumb.png"
+
+	},
+
+	{
+		"name": "Shattered",
+		"desc": "2022 Junior Level Production",
+		"src": "https://www.youtube.com/watch?v=oKU7hnf_XXo",
+		"thumbnail": "https://media.wrmwrks.net/images/thumbs/shatteredThumb.png"
+
+	},
+
+	{
+		"name": "Home",
+		"desc": "Music video in collaboration with two students from Paradise High School in the wake of the 2019 Camp Fire",
+		"src": "https://www.youtube.com/watch?v=rzR-AFVynuw",
+		"thumbnail": "https://media.wrmwrks.net/images/thumbs/homeThumb.png"
+
+	}
+]

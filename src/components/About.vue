@@ -18,8 +18,8 @@
             <div class="lg:text-lg xl:text-xl"> 
             <p>I've been making digital 
             content professionally since the age of 16.
-            I received my BFA in Cinematic Arts Production from APU in 2023</p>
-            <p>Upon completing college, I moved to the Santa Cruz area where I worked as a full-service videographer for Mission Springs Conference Center and their Outdoor Education Program.</p>
+            I received my BFA in Cinematic Arts Production from APU in 2023 with a focus in cinematography and color science.</p>
+            <p>My collaborations include major companies such as Adobe and long-standing industry professionals like Disney animator, Tony Bancroft.</p>
             <p>my goal is to provide effective and affordable service to those in my community</p>
 
             </div>

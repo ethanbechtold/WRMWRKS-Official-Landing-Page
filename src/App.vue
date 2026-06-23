@@ -31,24 +31,18 @@ import ProjectPopup from './components/projectPopup.vue';
 </script>
 
 <template>
-  <main>
+  <main class="bg-green-50">
     <NBtn class="sticky" />  
     <WHeader id="#z-axis" class="static w-full"/>
     
     <RouterView />
-    
   </main>
-  <footer>
-    <div class="flex flex-col items-center content-center">
-      <p>WRMWRKS 2026</p> 
-    </div>
 
-  </footer>
 </template>
 
 
 <style>
-footer {
+.footer {
   background-color: rgba(33, 70, 7, 0.686);
   padding: 2.5%;
 

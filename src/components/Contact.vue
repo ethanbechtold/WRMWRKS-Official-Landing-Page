@@ -1,6 +1,6 @@
 <template>
 
-        <div class="flex flex-col text-center">
+        <div class="flex flex-col text-center bg-orange-100 m-5 p-5 rounded-md">
             <h1>
                 Contact
             </h1>
@@ -16,3 +16,11 @@
     
 
 </template>
+
+<style>
+    h1 {
+        font-size: x-large;
+
+    }
+
+</style>

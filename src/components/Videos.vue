@@ -3,6 +3,7 @@ import videojs from 'video.js';
 import VideoPlayer from './VideoPlayer.vue';
 import videos from '../media/videos.json';
 import { ref } from 'vue';
+import { useWindowSize } from '@vueuse/core';
 
 
 
@@ -41,7 +42,16 @@ console.log(videos[1])
         },
         methods: {
             changeCurrentVideo(video) {
-                this.reelOptions.sources = [
+                if (video.src.indexOf('vimeo') > -1) {
+                    console.log("Vimeo detected")
+                    window.open(video.src)
+                }
+                if (video.src.indexOf('youtube') > -1) {
+                    console.log("redirecting to youtube")
+                    window.open(video.src)
+                }
+                else {
+                    this.reelOptions.sources = [
                     {
                       src: video.src,
                       type: video.type,
@@ -50,12 +60,14 @@ console.log(videos[1])
                 this.videoDescription = video.desc
                 this.videoTitle = video.name
                 console.log(this.reelOptions.sources)
+                }
+                
                 },
             scrollTo(id) {
                 const element = document.getElementById(id)
                 element.scrollIntoView({behavior: 'smooth'})
             }
-        }   
+        }
     }
 </script>
 
@@ -70,7 +82,7 @@ console.log(videos[1])
         <div class="flex flex-col pb-5">
             <div class="flex flex-col items-center 2xl:items-start">
                 <h1 class="text-center mt-2">{{ videoTitle }}</h1>
-                <p class="self-center xl:self-baseline">{{ videoDescription }}</p>
+                <p class="text-center xl:self-baseline">{{ videoDescription }}</p>
             </div>
         </div>
     </div>
