@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "MSOE School Visit Promo",
-		"desc":"Advertisement for Mission Springs' Outdoor Education program. Made for the program's website and as the director's presentation aid while visiting schools across California.",
+		"desc":"Advertisement for Mission Springs' Outdoor Education program.",
 		"src": "https://media.wrmwrks.net/OE_Promo_FINAL_v2_YT.mp4",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/images_Slug_OE_Thumbnail.png",
 		"type": "video/mp4"
@@ -39,14 +39,6 @@
 		"desc": "2022 Junior Level Production",
 		"src": "https://www.youtube.com/watch?v=oKU7hnf_XXo",
 		"thumbnail": "https://media.wrmwrks.net/images/thumbs/shatteredThumb.png"
-
-	},
-
-	{
-		"name": "Home",
-		"desc": "Music video in collaboration with two students from Paradise High School in the wake of the 2019 Camp Fire",
-		"src": "https://www.youtube.com/watch?v=rzR-AFVynuw",
-		"thumbnail": "https://media.wrmwrks.net/images/thumbs/homeThumb.png"
 
 	}
 ]

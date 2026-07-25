@@ -86,7 +86,10 @@ p {
   
 }
 
-
+.bg-default-dark {
+  background-color: #0c0e0a;
+  color: rgba(215, 241, 198, 0.897);
+}
 
 @media only screen and (max-width: 1024px) {
   .doubleGold {

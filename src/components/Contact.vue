@@ -9,7 +9,7 @@
                 <a href="mailto:ethan@wrmwrks.net">ethan@wrmwrks.net</a>
             </p>
             <p>
-                Monday - Friday: 9:00am - 5:00pm
+                Monday - Friday
             </p>
          
         </div>

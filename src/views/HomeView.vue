@@ -43,7 +43,8 @@ import Contact from "../components/Contact.vue";
 <main>
   <Videos></Videos>
   <Carousel />
-  <Contact class="mt-10 mb-10" />
+  <div class="text-center p-5 bg-default-dark">WRMWRKS.net was coded from scratch and hosted by yours truly. If you run into issues, feel free to email me directly.</div>
+  <Contact class="mb-10" />
 </main>
 </template>
 

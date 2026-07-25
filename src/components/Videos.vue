@@ -19,6 +19,7 @@ console.log(videos[1])
                 components: {
                     VideoPlayer,
                 },
+                redirect: false,
                 reelOptions: {
                     autoplay: true,
                     controls: "hide",
@@ -45,11 +46,15 @@ console.log(videos[1])
                 if (video.src.indexOf('vimeo') > -1) {
                     console.log("Vimeo detected")
                     window.open(video.src)
+                    this.redirect = true
+                    console.log(this.redirect)
                 }
                 if (video.src.indexOf('youtube') > -1) {
                     console.log("redirecting to youtube")
                     window.open(video.src)
-                }
+                    this.redirect = true
+                    console.log(this.redirect)
+                } 
                 else {
                     this.reelOptions.sources = [
                     {
@@ -57,10 +62,11 @@ console.log(videos[1])
                       type: video.type,
                     },
                 ]
+                this.redirect = false
+                }
                 this.videoDescription = video.desc
                 this.videoTitle = video.name
                 console.log(this.reelOptions.sources)
-                }
                 
                 },
             scrollTo(id) {
@@ -78,11 +84,11 @@ console.log(videos[1])
         rel="stylesheet"/>
 
     <div id="mainReelVid" class="flex flex-col items-center pt-10 pb-15 2xl:flex-row 2xl:justify-center md:gap-10">
-        <VideoPlayer :key="reelOptions.sources" id="player" class="mainReelVid" :options="reelOptions"></VideoPlayer>
+        <VideoPlayer v-if="!redirect" :key="reelOptions.sources" id="player" class="mainReelVid" :options="reelOptions"></VideoPlayer>
         <div class="flex flex-col pb-5">
             <div class="flex flex-col items-center 2xl:items-start">
                 <h1 class="text-center mt-2">{{ videoTitle }}</h1>
-                <p class="text-center xl:self-baseline">{{ videoDescription }}</p>
+                <p class="text-center ml-5 mr-5 lg:self-baseline lg:m-0">{{ videoDescription }}</p>
             </div>
         </div>
     </div>

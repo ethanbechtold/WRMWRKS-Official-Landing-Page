@@ -20,7 +20,7 @@
             content professionally since the age of 16.
             I received my BFA in Cinematic Arts Production from APU in 2023 with a focus in cinematography and color science.</p>
             <p>My collaborations include major companies such as Adobe and long-standing industry professionals like Disney animator, Tony Bancroft.</p>
-            <p>my goal is to provide effective and affordable service to those in my community</p>
+            <p>My goal is to provide effective and affordable service to those in my community</p>
 
             </div>
         </div>
